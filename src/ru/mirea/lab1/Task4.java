@@ -3,18 +3,17 @@ import java.util.Scanner;
 
 public class Task4 {
     public static void main(String[] args) {
-        int[] array = new int[5];
+        int[] array = {3, 2, 5, 4, -5, 0};
         System.out.print("enter numbers: ");
         Scanner sc = new Scanner(System.in);
         int sum=0, i=0, j=1, maxNumber, minNumber;
-        while (i<5) {
-            array[i] = sc.nextInt();
+        while (i< array.length) {
             sum += array[i];
             i++;
         }
         minNumber = array[0];
         maxNumber = array[0];
-        while (j<5) {
+        while (j< array.length) {
             if (array[j] < minNumber) {
                 minNumber = array[j];
             }
