@@ -11,7 +11,7 @@ public class Task3 {
             sum += array[i];
         }
         average = sum/5;
-        System.out.println("Sum of your numbers: " + sum);
-        System.out.println("Average of your numbers: " + average);
+        System.out.println("Sum: " + sum);
+        System.out.println("Average: " + average);
     }
 }
